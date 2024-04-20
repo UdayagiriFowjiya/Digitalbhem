@@ -1,4 +1,5 @@
 
+
 +<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +10,14 @@
 </head>
 <body>
   <div class="calculator">
+    <h3>DIGITAL BHEM CALCULATOR</h3>
     <input type="text" placeholder="0">
     <div1>
         <div>
-        <button class="braces">(</button>
-        <button class="braces">)</button>
-        <button class="braces">%</button>
-        <button class="delete">DEL</button>
+        <button class="brace">(</button>
+        <button class="brace">)</button>
+        <button class="operator">%</button>
+        <button class="del">DEL</button>
     </div>
     <div>
         <button>7</button>
@@ -36,7 +38,7 @@
         <button class="operator">-</button>
     </div>
     <div>
-        <button class="braces">.</button>
+        <button class="operator">.</button>
         <button>0</button>
         <button class="equal">=</button>
         <button class="operator">+</button>
