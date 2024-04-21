@@ -21,7 +21,7 @@ input{
     width:310px;
     height:40px;
     color:white;
-    border:1px solid rgb(151,147,156);
+    border:1px solid rgb(198, 194, 200);
     box-shadow:  5px 5px 12px rgb(193, 185, 203);
     border-radius:10px; 
     margin-top: 20px;
