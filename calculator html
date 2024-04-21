@@ -1,6 +1,5 @@
 
-
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,9 +13,9 @@
     <input type="text" placeholder="0">
     <div1>
         <div>
-        <button class="brace">(</button>
-        <button class="brace">)</button>
-        <button class="operator">%</button>
+        <button class="AC">AC</button>
+        <button class="percent">%</button>
+        <button class="root">&#8730;</button>
         <button class="del">DEL</button>
     </div>
     <div>
@@ -42,7 +41,6 @@
         <button>0</button>
         <button class="equal">=</button>
         <button class="operator">+</button>
-
     </div>
     </div1>
   </div>
