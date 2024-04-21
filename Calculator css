@@ -4,11 +4,12 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color: rgb(83, 79, 79);
+    background-color: rgb(226, 240, 245);
 
 }
 h3{
     color:aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
     margin-left:10px;
     margin-top:30px;
     font-weight:bold;
@@ -21,24 +22,23 @@ input{
     height:40px;
     color:white;
     border:1px solid rgb(151,147,156);
-    box-shadow: inset -5px -5px 12px rgb(193, 185, 203),
-                 inset  5px 5px 12px rgb(190, 182, 201);
+    box-shadow:  5px 5px 12px rgb(193, 185, 203);
     border-radius:10px; 
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left:10px;
     text-align:right;
-    font-weight:bold;
+    font-weight:bold; 
     font-size: 25px;
 
 }
 .calculator{
     width:340px;
     height:550px;
-    border:1px solid rgb(213,277,232);
+    border:none;
     border-radius: 15px;
-    box-shadow: inset 5px 5px 12px #d8d2d2,
-                 5px 5px 12px #d8d2d2;
+    box-shadow: inset 5px 5px 12px ,
+                 10px 10px 20px;
     margin-top:150px;
     background-color:rgb(41, 39, 39);
     
@@ -61,8 +61,17 @@ button{
     background-color: aquamarine;
     color:black;
 }
-.brace{
-    background-color:aquamarine ;
+.percent{
+    background-color: aquamarine;
+    color:black;
+}
+.root{
+    background-color: aquamarine;
+    color:black;
+}
+
+.AC{
+    background-color:blue;
     color:black;
 }
 .del{
@@ -72,6 +81,7 @@ button{
 }
 .equal{
     background-color: rgb(0,255,0);
+    
 }
 button:active{
     background-color: #565151;
