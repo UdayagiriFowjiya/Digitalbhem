@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+      <link rel="stylesheet" href="stopwatch1.css">
+</head>
+    <style>
+    body{
+        background-image:url('sandglass.jpg'); 
+        background-size: cover; 
+    }
+    </style>
+    <body>
+        <h1>DIGITAL BHEM STOPWATCH</h1>
+        <div class="stopwatch">
+            <div class="display">00:00:00</div>
+                <button class="pause-btn" onclick="pause()">PAUSE</button>
+                <button class="start-btn" onclick="start()">START</button>
+                <button class="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <script src="stopwatch2.js"></script>
+</body>
+</html>
