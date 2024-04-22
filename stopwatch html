@@ -8,7 +8,7 @@
 </head>
     <style>
     body{
-        background-image:url('sandglass.jpg'); 
+        background-image:url('stopwatchimg.jpg'); 
         background-size: cover; 
     }
     </style>
