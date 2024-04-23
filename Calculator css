@@ -17,7 +17,7 @@ h3{
 
 }
 input{
-    background-color: rgb(151, 147, 156);
+    background-color: rgb(77, 73, 82);
     width:310px;
     height:40px;
     color:white;
@@ -65,7 +65,7 @@ button{
     background-color: aquamarine;
     color:black;
 }
-.root{
+.square{
     background-color: aquamarine;
     color:black;
 }
@@ -84,5 +84,5 @@ button{
     
 }
 button:active{
-    background-color: #565151;
+    background-color: #baacac;
 }
