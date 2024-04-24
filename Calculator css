@@ -4,7 +4,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color: rgb(226, 240, 245);
+    background-color: rgb(161, 151, 233);
 
 }
 h3{
