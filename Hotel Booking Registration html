@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body{
+        background-image: url('hotel.jpg');
+        background-size:cover;
+        
+      } 
+    </style>
+<body>
+     <form id="bookingForm">
+         <h1>Hotel Booking Registration</h1>
+          <h3>CUSTOMER INFO</h3>
+        <div1 id="Customer Info">
+         <label for="name">Customer Name</label>
+         <input type="text" placeholder="Enter name" required>
+         <label for="checkIn">Check-in Date</label>
+         <input type="date" id="checkIn" required>
+         <label for="totalDays">Total Days</label>
+         <input type="number" id="totalDays" required>
+         <label for="totalPersons">Total Persons</label>
+         <input type="number" id="totalPersons" required>
+       </div1>
+        
+        <h3>ROOM INFO</h3>
+           <div2 id="Room Info">
+            <label for="roomtype">RoomType</label>
+            <input type="radio"  class="radiolabel">Delux
+            <br>
+            <input type="radio"  class="radiolabel">Suite
+            <br>
+            <br>
+            <label for="Amenities">Amenities</label>
+            <input type="radio"  class="radiolabel">AC
+            <br>
+            <input type="radio" class="radiolabel">Locker
+           </div2>  
+        <h3>ROOM RATES</h3>
+        <div3 id="Room Rates">
+        <label for="room rates">Room cost(/day)</label>
+        <input type="number" id="roomrates" value="1000" readonly>
+        <br>
+        <label for="room rates">Amenities cost(/day)</label>
+        <input type="number" id="amenities rate" value="300" readonly>
+        </div3>
+        <h3>PAYMENT AND BALANCE</h3>
+        <div4 id="Payment">
+        <label for="Advance Amount">Advance Amount</label>
+        <input type="number" placeholder="Enter Advance Amount" required>
+        <br>
+        <label for="Total cost">Total Cost</label>
+        <input type="number" id="Total Cost" readonly>
+        <br>
+        <label for="balance">Balance</label>
+        <input type="number" id="balance" readonly>
+        <br>
+        <label for="Extra person charges/day">Extra person charges/day</label>
+        <input type="number" id="Extra person charges/day" value=1000 readonly>
+        </div4>    
+    <button class="alertbox" onclick="alertbox()">BOOK NOW</button>
+    
+    <script src="script.js"></script>
+ </form>
+ </body>   
+</html>
