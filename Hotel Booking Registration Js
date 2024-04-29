@@ -1,0 +1,34 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const totalDaysInput = document.getElementById('totalDays');
+    const totalPersonsInput = document.getElementById('totalPersons');
+    const advanceAmountInput = document.querySelector('input[type="number"][placeholder="Enter Advance Amount"]');
+    const roomRateInput = document.getElementById('roomrates');
+    const amenitiesRateInput = document.getElementById('amenities rate');
+    const totalCostInput = document.getElementById('Total Cost');
+    const balanceInput = document.getElementById('balance');
+        
+    const updateTotalCostAndBalance = () => {
+        const totalDays = parseInt(totalDaysInput.value);
+        const totalPersons = parseInt(totalPersonsInput.value);
+        const advanceAmount = parseInt(advanceAmountInput.value);
+        const roomRate = parseInt(roomRateInput.value);
+        const amenitiesRate = parseInt(amenitiesRateInput.value);
+        
+        const roomCost = roomRate * totalDays;
+        const amenitiesCost = amenitiesRate * totalDays;
+        const extraPersonCharges = 1000 * (totalPersons - 1) * totalDays;
+        const totalCost = roomCost + amenitiesCost + extraPersonCharges;
+        const balance = totalCost - advanceAmount;
+        
+        totalCostInput.value = totalCost;
+        balanceInput.value = balance;
+    };
+    
+    totalDaysInput.addEventListener('input', updateTotalCostAndBalance);
+    totalPersonsInput.addEventListener('input', updateTotalCostAndBalance);
+    advanceAmountInput.addEventListener('input', updateTotalCostAndBalance);
+});
+//alert box
+function alertbox(){
+    alert("Successfully Registered");
+}
